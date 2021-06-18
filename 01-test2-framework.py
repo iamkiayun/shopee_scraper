@@ -41,8 +41,8 @@ def __scroll_down_page(speed=8):
 __scroll_down_page()
 
 """put into list"""
-def put_into_list(wait_time=10):
-    page_to_scrape = 2
+def put_into_list(wait_time=5):
+    page_to_scrape = 5
     CONDITION = True
     while CONDITION:
         xpath_ = '//*[@id="main"]/div/div[2]/div[2]/div[2]/div[2]/div[2]'
@@ -71,7 +71,7 @@ put_into_list()
 import pandas as pd
 
 def convert_to_csv():
-    filename = 'href test2 framework'
+    filename = 'href test2 framework2'
     pf = pd.DataFrame(put_into_list())
     pf.index +=1
     pf.to_csv(f'{filename}.csv')
