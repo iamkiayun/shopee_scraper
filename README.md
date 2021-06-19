@@ -1,4 +1,6 @@
 # shopee_scraper
+
+## Intro
 Hi, this is a simple scraper I have created to scrap link of the products from shopee.
 As shopee is considered as a dynamic website, hence I am using Selenium to perform the scraping.
 Initial thought of creating and sharing this repo was because I can hardly find tutorials or repo regarding scraping dynamic webiste using selenium.
